@@ -1,0 +1,257 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /*========== Color =========== */
+
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-black: hsl(0, 0%, 0%);
+
+
+
+    /*========== Device Width =========== */
+    --container-width-lg: 80%;
+    --container-width-md: 88%;
+    --container-width-sm: 92%;
+
+
+    /*========== Transition =========== */
+    --transition: all 350ms ease;
+
+}
+
+    /*================= General settings ===========*/
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    section{
+        padding: 5rem 0;
+    }
+
+    .container{
+        margin: 0 auto;
+        width:var(--container-width-lg) ;
+    }
+
+    img{
+        width: 100%;
+        display: block;
+        object-fit: cover
+    }
+
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.7rem;
+    }
+
+    h4{
+        font-size: 1.3rem;
+    }
+
+    h5{
+        font-size: 1rem;
+    }
+
+    h6{
+        font-size: 0.89rem;
+    }
+
+    p{
+        font-size: 1rem;
+        color: var(--clr-grey);
+    }
+
+    body{
+        background-color: var(--clr-white) ;
+        overflow-x: hidden ;
+        line-height: 1.4;
+        font-family: 'Mulish', sans-serif ;
+        min-height: 100vh;
+        max-width: 1920px;
+
+
+    }
+
+
+
+
+    /*================= Nav ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*================= Footer  ===========*/
+
+
+
+
+
+
+
+    /*================= Media Query (Tablets) ===========*/
+    @media screen and (max-width: 64em){
+
+        .container{
+            width: var(--container-width-md) ;
+
+        }
+
+        h1{
+            font-size: 2.2rem;
+        }
+    
+        h2{
+            font-size: 1.8rem;
+        }
+    
+        h3{
+            font-size: 1.5rem;
+        }
+    
+        h4{
+            font-size: 1.1rem;
+        }
+    
+        h5{
+            font-size: 0.9rem;
+        }
+    
+        h6{
+            font-size: 0.8rem;
+        }
+    
+        p{
+            font-size: 0.85rem;
+        }
+
+
+
+    /*================= Nav ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*================= Footer  ===========*/
+
+
+    }
+
+
+
+
+    /*================= Media Query (Small Devices) ===========*/
+    @media screen and (max-width: 37em){
+
+        .container{
+            width: var(--container-width-sm);
+
+        }
+
+    
+        h1{
+            font-size: 2rem;
+        }
+    
+        h2{
+            font-size: 1.7rem;
+        }
+    
+        h3{
+            font-size: 1.5rem;
+        }
+    
+        h4{
+            font-size: 1rem;
+        }
+    
+        h5{
+            font-size: 0.85rem;
+        }
+    
+        h6{
+            font-size: 0.8rem;
+        }
+    
+        p{
+            font-size: 0.85rem;
+        }
+
+
+
+
+    /*================= Nav ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*=================  ===========*/
+
+
+
+    /*================= Footer  ===========*/
+
+
+    }
+
+
+
+
